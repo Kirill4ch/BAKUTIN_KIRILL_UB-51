@@ -1,5 +1,4 @@
 
-s = 0
 def countE(a):
     cnt = 0
     s = a.split()
