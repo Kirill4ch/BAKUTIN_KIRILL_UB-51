@@ -8,7 +8,7 @@ def triangle(a, b, c):
     return (a+b+c)/2;
 
 def circle(diam):
-    return f"{((diam**2 * math.pi)):.4f}" #подсмотрел как через f-строку ограничить количество символов после точки
+    return (diam**2 * math.pi)
 
 
 print("Выберете фигуру: \n1.Квадрат \n2.Треугольник \n3.Круг")
