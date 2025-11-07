@@ -4,7 +4,8 @@ for i in matr:
 def sumSD(matr):
     sum = 0
     for i in range(len(matr) - 1):
-        sum += matr[i+ 1][i + 1]
+        sum += matr[i][i + 1]
     return(sum)
+
 
 print(sumSD(matr))
