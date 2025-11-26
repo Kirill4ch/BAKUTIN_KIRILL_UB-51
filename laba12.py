@@ -28,11 +28,11 @@ def get_repo_data():
 
 
 root = tk.Tk()
-root.title("GitHub Repo Info")
+root.title("Бакутин Кирилл")
 
-tk.Label(root, text="Введите имя репозитория (owner/repo):").pack(padx=310, pady=400)
-entry = tk.Entry(root, width=2)
-entry.pack(padx=10, pady=10)
+tk.Label(root, text="Введите имя репозитория (owner/repo):").pack(padx=150, pady=100)
+entry = tk.Entry(root, width=40)
+entry.pack(padx=4,  pady=3)
 btn = tk.Button(root, text="Получить данные", command=get_repo_data)
 btn.pack(padx=2, pady=2)
 
