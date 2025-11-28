@@ -3,7 +3,7 @@ from tkinter.ttk import Combobox
 from tkinter import ttk
 from tkinter import messagebox
 win = Tk();
-win.title("ФИО автора")
+win.title("БАКУТИН КИРИЛЛ ")
 win.geometry("400x300")
 
 def clickRd():
