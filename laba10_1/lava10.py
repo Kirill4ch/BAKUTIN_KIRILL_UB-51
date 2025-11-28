@@ -3,8 +3,8 @@ def matrica(file):
     matr = []
     with open(file, "r") as f:
         for line in f:
-            row = [int(x) for x in line.split()]
-            matr.append(row)
+            linia = [int(x) for x in line.split()]
+            matr.append(linia)
     return matr
 
 
@@ -25,5 +25,6 @@ def sumSD(matr):
         sum += matr[i][i + 1]
         file = open('vivod.txt', 'w')
         file.write(str(sum))
+
 
 sumSD(matrc)
